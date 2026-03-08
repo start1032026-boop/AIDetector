@@ -1,0 +1,22 @@
+# Backend folder setup instructions
+cd backend
+
+# Create a virtual environment and install FastAPI:
+python -m venv venv
+source venv/bin/activate        # Mac/Linux
+venv\Scripts\activate           # Windows
+
+pip install fastapi uvicorn
+
+# Create a file called main.py 
+
+# In main.py, add the following code to create a simple FastAPI application
+
+# Activate the virtual environment:
+.\venv\Scripts\activate
+
+# Install the required dependencies:
+pip install uvicorn
+
+# Run the FastAPI application:
+uvicorn main:app --reload
