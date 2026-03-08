@@ -40,6 +40,5 @@ npm -v
 npx -v
 #installing axios   
 npm install axios
-npm install axios
 #running frintend
 npm run dev
